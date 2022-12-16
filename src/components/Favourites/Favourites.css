@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700,900");
+
+/* .icon{
+    
+    margin-left: 90%;
+    width: 20px;
+    background-color: white;
+    border: 1px solid white;
+} */
+
+.fav {
+  display: flex;
+  position: absolute;
+  top: 29.5%;
+  left: 65%;
+  /* border: 1px solid white; */
+  width: 32%;
+}
+
+/* .fav-form{
+    margin-top: -8%;
+    margin-left: 55%; 
+    width: 43%;
+    border: 1px solid white;
+} */
+
+.fav-container {
+  display: flex;
+  width: 300px;
+  gap: 20px;
+  /* margin-left: 20%; */
+}
+
+.fav-input {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #575756;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.fav-btn {
+  width: 50%;
+  padding: 12px 24px;
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 18px;
+  line-height: 18px;
+
+  color: #575756;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  margin-top: 2%;
+  margin-left: 15%;
+}
+
+.fav-btn:hover{
+  cursor: pointer;
+}
+
+.fav-movie-item {
+  display: flex;
+}
+
+.fav-movie-cont {
+  width: 100px;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.fav-movie-item__poster {
+  width: 100%;
+}
+
+.fav-movie-item__info {
+  margin-top: 3%;
+  width: 200px;
+}
+
+.fav-movie-item__title {
+  padding-top: 14%;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: 100px;
+}
+
+.delete-icon {
+  background-color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-left: 80%;
+  margin-top: -24%;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
